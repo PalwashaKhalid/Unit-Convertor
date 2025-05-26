@@ -7,7 +7,7 @@ def convert_units(value, unit_from, unit_to):
     # Create a dictionary for conversion Parameter:
     conversions= {
         "meters_kilometers" : 0.001,
-        "kilometers_grams" : 1000,
+        "kilometers_meters" : 1000,
         "grams_kilograms" : 0.001,
         "kilograms_grams" : 1000 
     }
